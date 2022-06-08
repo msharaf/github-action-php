@@ -1,7 +1,15 @@
 {
+    "name": "codefresh-contrib/php-composer-sample-app",
+    "description": "Example php project for Codefresh pipelines",
+    "type": "project",
     "require": {
-        "silex/silex": "~1.0",
-        "twig/twig": ">=1.8,<2.0-dev"
+        "monolog/monolog": "^1.24",
+        "phpunit/php-timer": "^1.0.9"
     },
-    "minimum-stability": "dev"
+    "authors": [
+        {
+            "name": "Kostis Kapelonis",
+            "email": "kostis@codefresh.io"
+        }
+    ]
 }
